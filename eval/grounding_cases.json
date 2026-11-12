@@ -1,0 +1,200 @@
+[
+  {
+    "question": "How can hallucinations be detected without access to model internals?",
+    "sentence": "SelfCheckGPT detects hallucinations without access to the model's internal probabilities or an external database.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "How can hallucinations be detected without access to model internals?",
+    "sentence": "Sampled responses tend to agree on facts the model knows and diverge on facts it has made up.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "How can hallucinations be detected without access to model internals?",
+    "sentence": "It was evaluated on GPT-3 passages about individuals from the WikiBio dataset.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "How can hallucinations be detected without access to model internals?",
+    "sentence": "SelfCheckGPT reaches 94% accuracy on the WikiBio benchmark.",
+    "label": "fabricated",
+    "type": "numeric"
+  },
+  {
+    "question": "How can hallucinations be detected without access to model internals?",
+    "sentence": "SelfCheckGPT requires fine-tuning the model on a labeled dataset of hallucinations.",
+    "label": "fabricated",
+    "type": "plausible_unsupported"
+  },
+  {
+    "question": "How can hallucinations be detected without access to model internals?",
+    "sentence": "SelfCheckGPT needs access to the model's internal probabilities and an external database.",
+    "label": "fabricated",
+    "type": "contradiction"
+  },
+  {
+    "question": "How can hallucinations be detected without access to model internals?",
+    "sentence": "The method was trained on millions of medical images collected from hospitals.",
+    "label": "fabricated",
+    "type": "off_topic"
+  },
+  {
+    "question": "What is semantic entropy?",
+    "sentence": "Semantic entropy accounts for the fact that different sentences can carry the same meaning.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "What is semantic entropy?",
+    "sentence": "The method is unsupervised and needs only a single model with no changes to existing models.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "What is semantic entropy?",
+    "sentence": "Semantic entropy predicted model accuracy on question-answering datasets better than comparable baselines.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "What is semantic entropy?",
+    "sentence": "Semantic entropy requires training a separate verifier model on human annotations.",
+    "label": "fabricated",
+    "type": "plausible_unsupported"
+  },
+  {
+    "question": "What is semantic entropy?",
+    "sentence": "Semantic entropy improves AUROC by 15 points over the best baseline.",
+    "label": "fabricated",
+    "type": "numeric"
+  },
+  {
+    "question": "What is semantic entropy?",
+    "sentence": "Semantic entropy was introduced to detect hallucinations in image captioning models.",
+    "label": "fabricated",
+    "type": "plausible_unsupported"
+  },
+  {
+    "question": "How does Chain-of-Verification reduce hallucination?",
+    "sentence": "Chain-of-Verification has the model draft an answer, write verification questions, answer them separately, and then revise its response.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "How does Chain-of-Verification reduce hallucination?",
+    "sentence": "The verification questions are answered separately so the answers are not biased by earlier responses.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "How does Chain-of-Verification reduce hallucination?",
+    "sentence": "Chain-of-Verification relies on a human fact-checker to review each draft answer.",
+    "label": "fabricated",
+    "type": "plausible_unsupported"
+  },
+  {
+    "question": "How does Chain-of-Verification reduce hallucination?",
+    "sentence": "Chain-of-Verification was shown to reduce hallucinations by 40% on every task.",
+    "label": "fabricated",
+    "type": "numeric"
+  },
+  {
+    "question": "Can the hidden-layer activations of an LLM reveal whether a statement is true?",
+    "sentence": "A classifier trained on hidden-layer activations labels true and false statements with 71% to 83% accuracy depending on the base model.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "Can the hidden-layer activations of an LLM reveal whether a statement is true?",
+    "sentence": "Sentence probability is a weaker signal because it depends on sentence length and word frequency.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "Can the hidden-layer activations of an LLM reveal whether a statement is true?",
+    "sentence": "A classifier on hidden activations reaches 99% accuracy on all models.",
+    "label": "fabricated",
+    "type": "numeric"
+  },
+  {
+    "question": "Can the hidden-layer activations of an LLM reveal whether a statement is true?",
+    "sentence": "Sentence probability is a stronger signal of truthfulness than hidden-layer activations.",
+    "label": "fabricated",
+    "type": "contradiction"
+  },
+  {
+    "question": "How can a truthfulness classifier be trained without labeled data?",
+    "sentence": "HaloScope uses unlabeled LLM generations to train a binary truthfulness classifier without human annotation.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "How can a truthfulness classifier be trained without labeled data?",
+    "sentence": "HaloScope relies on thousands of human-labeled truthful and hallucinated examples.",
+    "label": "fabricated",
+    "type": "contradiction"
+  },
+  {
+    "question": "How can a truthfulness classifier be trained without labeled data?",
+    "sentence": "HaloScope was developed to compress model weights for faster inference.",
+    "label": "fabricated",
+    "type": "off_topic"
+  },
+  {
+    "question": "Which benchmark measures whether language models can recognize hallucinations?",
+    "sentence": "HaluEval is a benchmark for testing how well large language models recognize hallucinations.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "Which benchmark measures whether language models can recognize hallucinations?",
+    "sentence": "About 19.5% of ChatGPT responses were found to contain hallucinations.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "Which benchmark measures whether language models can recognize hallucinations?",
+    "sentence": "About 45% of ChatGPT responses contained hallucinations.",
+    "label": "fabricated",
+    "type": "numeric"
+  },
+  {
+    "question": "Which benchmark measures whether language models can recognize hallucinations?",
+    "sentence": "HaluEval contains only human-written samples with no model-generated content.",
+    "label": "fabricated",
+    "type": "contradiction"
+  },
+  {
+    "question": "What tasks is FacTool evaluated on?",
+    "sentence": "FacTool is evaluated on knowledge-based question answering, code generation, mathematical reasoning and scientific literature review.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "What tasks is FacTool evaluated on?",
+    "sentence": "FacTool is evaluated on speech recognition and image classification.",
+    "label": "fabricated",
+    "type": "off_topic"
+  },
+  {
+    "question": "What tasks is FacTool evaluated on?",
+    "sentence": "FacTool needs no external tools and uses only the language model itself.",
+    "label": "fabricated",
+    "type": "contradiction"
+  },
+  {
+    "question": "Which survey reviews hallucination metrics and mitigation methods in text generation?",
+    "sentence": "The survey reviews metrics and mitigation methods for hallucination in tasks like summarization, dialogue and machine translation.",
+    "label": "faithful",
+    "type": "paraphrase"
+  },
+  {
+    "question": "Which survey reviews hallucination metrics and mitigation methods in text generation?",
+    "sentence": "The survey concludes that hallucination has been completely solved in modern language models.",
+    "label": "fabricated",
+    "type": "plausible_unsupported"
+  }
+]
