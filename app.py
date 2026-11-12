@@ -53,7 +53,7 @@ if st.button("Ask", type="primary") and query:
             if sentence["grounded"]:
                 st.markdown(f":green[{sentence['text']}]  `✓ {sentence['best_score']}`")
             else:
-                st.markdown(f":red[{sentence['text']}]  `✗ ungrounded`")
+                st.markdown(f":red[{sentence['text']}]  `✗ {sentence['reason']}`")
 
         col1, col2, col3 = st.columns(3)
         col1.metric("Groundedness", f"{grounding['groundedness_pct']}%")

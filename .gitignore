@@ -3,3 +3,4 @@ __pycache__/
 .env
 data/index.pkl
 .streamlit/
+.pytest_cache/

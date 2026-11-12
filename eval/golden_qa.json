@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How can hallucinations be detected without access to model internals or an external database?",
+    "expected_paper": "selfcheckgpt"
+  },
+  {
+    "question": "What does SelfCheckGPT do with sampled responses?",
+    "expected_paper": "selfcheckgpt"
+  },
+  {
+    "question": "Which framework detects factual errors in code generation and mathematical reasoning?",
+    "expected_paper": "factool"
+  },
+  {
+    "question": "What tasks is FacTool evaluated on?",
+    "expected_paper": "factool"
+  },
+  {
+    "question": "How can a truthfulness classifier be trained without labeled data?",
+    "expected_paper": "haloscope"
+  },
+  {
+    "question": "What is the membership estimation score used for?",
+    "expected_paper": "haloscope"
+  },
+  {
+    "question": "What is semantic entropy?",
+    "expected_paper": "semantic_uncertainty"
+  },
+  {
+    "question": "Why is uncertainty hard to measure in natural language?",
+    "expected_paper": "semantic_uncertainty"
+  },
+  {
+    "question": "How does Chain-of-Verification reduce hallucination?",
+    "expected_paper": "cove"
+  },
+  {
+    "question": "Why are verification questions answered separately from the draft?",
+    "expected_paper": "cove"
+  },
+  {
+    "question": "Can the hidden-layer activations of an LLM reveal whether a statement is true?",
+    "expected_paper": "internal_state"
+  },
+  {
+    "question": "Why is sentence probability a weak signal of truthfulness?",
+    "expected_paper": "internal_state"
+  },
+  {
+    "question": "Which benchmark measures whether language models can recognize hallucinations?",
+    "expected_paper": "halueval"
+  },
+  {
+    "question": "What fraction of ChatGPT responses contained hallucinations?",
+    "expected_paper": "halueval"
+  },
+  {
+    "question": "Which survey reviews hallucination metrics and mitigation methods in text generation?",
+    "expected_paper": "hallucination_survey"
+  },
+  {
+    "question": "In which generation tasks does hallucination occur according to the survey?",
+    "expected_paper": "hallucination_survey"
+  },
+  {
+    "question": "What is the capital of France?",
+    "expected_paper": null
+  },
+  {
+    "question": "How do I bake sourdough bread?",
+    "expected_paper": null
+  },
+  {
+    "question": "Who won the football world cup?",
+    "expected_paper": null
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "expected_paper": null
+  }
+]
